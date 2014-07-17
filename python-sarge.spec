@@ -4,7 +4,7 @@
 
 Name:           python-%{srcname}
 Version:        0.1.3
-Release:        1%{?dist}
+Release:        CROC1%{?dist}
 Summary:        A wrapper for subprocess which provides command pipeline functionality.
 
 Group:          Development/Libraries
@@ -51,5 +51,5 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Tue Jul 15 2014 Mikhail Ushanov <gm.mephisto@gmail.com> - 0.1.3-1
+* Tue Jul 17 2014 Mikhail Ushanov <gm.mephisto@gmail.com> - 0.1.3-CROC1
 - Init release
